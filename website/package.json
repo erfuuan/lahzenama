@@ -1,0 +1,31 @@
+{
+  "name": "lahzenama",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "chart.js": "^4.4.0",
+    "next": "^14.2.0",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.0",
+    "workbox-webpack-plugin": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5"
+  }
+}

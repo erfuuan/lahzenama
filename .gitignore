@@ -1,0 +1,80 @@
+# ---------- OS / Editor ----------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# ---------- Next.js / Node (website) ----------
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js build output
+.next/
+out/
+build/
+dist/
+
+# production
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.cache/
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env files (keep examples)
+.env
+.env*.local
+!.env.local.example
+!.env.example
+
+# logs
+logs
+*.log
+
+# ---------- Android / Wear OS (smart-watch) ----------
+# Gradle
+.gradle/
+gradle-app-setting.setting
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin
+.kotlin/
+
+# Build output
+smart-watch/build/
+app/build/
+**/build/
+
+# Local config (machine-specific paths)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+captures/
+.cxx/
+
+# Keystore (signing keys — never commit)
+*.jks
+*.keystore
+
+# NDK
+.cxx/
+
+# ---------- Misc project artifacts ----------
+lahzenama.tar
+lahzenama.tar/
+*.tar

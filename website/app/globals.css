@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    transition-property: background-color, color;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+    /* iOS safe area support for standalone PWA mode */
+    padding-top: env(safe-area-inset-top);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    /* Prevent iOS overscroll bounce from showing white */
+    overscroll-behavior: none;
+    /* Improve tap responsiveness on iOS */
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+}
