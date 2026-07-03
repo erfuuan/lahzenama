@@ -6,7 +6,7 @@ import PricesGrid from "./PricesGrid";
 import AdBox from "./AdBox";
 import ShopsBox from "./ShopsBox";
 import Footer from "./Footer";
-import { usePriceData } from "@/website/hooks/usePriceData";
+import { usePriceData } from "@/hooks/usePriceData";
 
 const TrendChart = dynamic(() => import("./TrendChart"), { ssr: false });
 

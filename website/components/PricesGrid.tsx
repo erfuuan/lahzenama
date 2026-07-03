@@ -1,5 +1,5 @@
 import PriceCard from "./PriceCard";
-import type { PriceState } from "@/website/types";
+import type { PriceState } from "@/types";
 
 function SkeletonCard() {
   return (

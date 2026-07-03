@@ -1,5 +1,5 @@
 import { memo } from "react";
-import type { PriceCardProps } from "@/website/types";
+import type { PriceCardProps } from "@/types";
 
 function formatNumber(num: number): string {
   return num.toLocaleString("fa-IR");

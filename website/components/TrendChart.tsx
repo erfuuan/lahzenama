@@ -13,7 +13,7 @@ import {
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 import { useTheme } from "next-themes";
-import type { HistoryData, AssetKey } from "@/website/types";
+import type { HistoryData, AssetKey } from "@/types";
 
 ChartJS.register(
   CategoryScale,

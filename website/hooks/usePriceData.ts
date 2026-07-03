@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import type { PriceState, HistoryData } from '@/website/types';
+import type { PriceState, HistoryData } from '@/types';
 
 type DataSource = 'live' | 'mock';
 
