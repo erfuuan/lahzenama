@@ -10,6 +10,7 @@
 [![Wear OS](https://img.shields.io/badge/Wear%20OS-3%2B-green?logo=wear-os)](https://wearos.google.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Compose-purple?logo=kotlin)](https://kotlinlang.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
 
 _Live gold, silver, and USD prices on the web and your smartwatch_
 
@@ -178,4 +179,4 @@ docker compose up --build
 
 ## License
 
-Private project. All rights reserved.
+This project is licensed under the [GNU General Public License v3.0](LICENSE.md) (GPL-3.0).

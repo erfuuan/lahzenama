@@ -10,6 +10,7 @@
 [![Wear OS](https://img.shields.io/badge/Wear%20OS-3%2B-green?logo=wear-os)](https://wearos.google.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Kotlin](https://img.shields.io/badge/Kotlin-Compose-purple?logo=kotlin)](https://kotlinlang.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE.md)
 
 _قیمت لحظه‌ای طلا، نقره و دلار در وب و ساعت هوشمند_
 
@@ -178,4 +179,4 @@ docker compose up --build
 
 ## مجوز
 
-پروژهٔ خصوصی. تمامی حقوق محفوظ است.
+این پروژه تحت مجوز [GNU General Public License نسخهٔ ۳](LICENSE.md) (GPL-3.0) منتشر شده است.
